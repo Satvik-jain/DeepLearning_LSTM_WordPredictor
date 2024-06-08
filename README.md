@@ -1,16 +1,33 @@
-# Deeplearning_LSTM_wordprediction
-This Python project utilizes Long Short-Term Memory (LSTM) networks to predict the next words in a sequence of text.
+# DeepLearning_LSTM_WordPredictor
+
+This repository contains a deep learning model based on Long Short-Term Memory (LSTM) networks designed for next word prediction. The model is capable of learning from a given text dataset and predicting the subsequent word in a sequence.
+
+## Features
+
+- Implements LSTM for next word prediction.
+- Capable of training on any text dataset.
+- Includes scripts for preprocessing, training, and prediction.
+
+## Folder Structure
+
+- `data/`: Contains the text data used for training and testing.
+- `models/`: Contains saved models and checkpoints.
+- `notebooks/`: Jupyter notebooks for experimentation and model training.
+- `README.md`: Overview of the repository.
+
+## Getting Started
+
+### Prerequisites
+
+- Python
+- TensorFlow
+- NumPy
+- Pandas
 
 ### Installation
-1. Clone the repository:
-   ```bash
-   git clone 
-   cd 
 
-### Usage
-1. Prepare your training data:
+Clone the repository:
 
-   Ensure your text data is in a .txt file called data.txt
-   Place your .txt file in the project directory.
-
-2. Run the model
+```bash
+git clone https://github.com/Satvik-jain/DeepLearning_LSTM_WordPredictor.git
+cd DeepLearning_LSTM_WordPredictor
